@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="Bienvenido a Emprende el Viaje un emocionante viaje te espera \n es hora de comenzar tu propio viaje"
+        android:text="Bienvenido a Emprende el Viaje \n es hora de comenzar tu propio viaje"
         android:textColor="@color/colorPrimary"
         android:textSize="22sp"
         android:textStyle="italic" />
