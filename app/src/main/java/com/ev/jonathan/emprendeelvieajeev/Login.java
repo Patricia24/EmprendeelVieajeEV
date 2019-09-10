@@ -76,7 +76,7 @@ public class Login extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Toast.makeText(Login.this, "Ocurrio un error, conprueba tu conexion a internet", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Login.this, "Ocurrio un error inesperado , conprueba tu conexión  a internet porfavor", Toast.LENGTH_SHORT).show();
             }
         });
         VolleyRP.addToQueue(solicitud, mRequest, this, volley);
@@ -94,7 +94,7 @@ public class Login extends AppCompatActivity {
                     Intent intentInicio = new Intent(Login.this, Inicio.class);
                     Login.this.startActivity(intentInicio);
                 } else {
-                    Toast.makeText(this, "Contraseña incorrecta verifique su correo y contraseña", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Contraseña incorrecta verifique su correo y contraseña porfavor", Toast.LENGTH_SHORT).show();
                 }
             } else {
                 Toast.makeText(this, resultado, Toast.LENGTH_SHORT).show();
